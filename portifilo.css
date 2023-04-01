@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --bg-color: #f9f7fe;
     --branding-color: #6c63ff;
@@ -17,6 +21,28 @@ body {
 
 nav {
     background-color: var(--secondary-color);
+}
+
+
+.togglebtn:focus {
+    outline: 0;
+}
+
+.lines1,
+.lines2,
+.lines3 {
+    width: 30px;
+    height: 3px;
+    color: #000;
+    margin: 5px;
+}
+
+.lines2 {
+    width: 23px;
+}
+
+.lines3 {
+    width: 16px;
 }
 
 .menulinks {
