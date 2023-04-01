@@ -182,6 +182,16 @@ footer {
     border: 1px solid var(--secondary-color);
 }
 
+.sourcelink {
+    text-decoration: none;
+    color: #fff;
+
+    transition: all 0.5s;
+}
+
+.sourcelink:hover {
+    text-decoration: underline;
+}
 
 
 
